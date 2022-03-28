@@ -1,7 +1,8 @@
 <?php
-$title = 'Acceuil';
+$title = 'Contact';
 require 'head.php';
 require'nav.php'; 
 ?>
-HOME
+<div class="item it-contenu">	
+	Contact
 <?php require'footer.php'; ?>

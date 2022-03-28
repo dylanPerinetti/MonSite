@@ -1,3 +1,4 @@
+</div>
 <footer>
 	<ul class="footer">
 		<li>
@@ -18,3 +19,5 @@
 		<li><p>Copyright ©2022 DYLANPERINETTI</p></li>
 	</ul>
 </footer>
+</body>
+</html>

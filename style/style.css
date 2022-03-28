@@ -6,7 +6,6 @@ html
 	font-style: normal;
 	text-align: center;
 }
-
 h1
 {
 	color: #CCC;
@@ -14,12 +13,10 @@ h1
 	font-size: 40px;
 	color: blue;
 }
-
 h2
 {
 	color: #008000;
 }
-
 li
 {
 	list-style: none;
@@ -27,27 +24,23 @@ li
 	font-size: 20px;
 	text-align: left;
 }
-
 li a
 {
 	display: block;
 	color: green;
 	border: 1px solid transparent;
 }
-
 li a:hover
 {
 	/*text-decoration: overline;*/
 	color: yellow;
 	border: 1px solid yellow;
 }
-
 .logo
 {
 	margin-top: 20px;
 	display: block;
 }
-
 ul
 {
 	display: block;
@@ -64,19 +57,16 @@ p
 	padding-left: 20px;
 	padding-bottom: 40px;
 }
-
 footer
 {
 	background-color: black;
 }
-
 footer ul li p
 {
 	font-size: 15px;
 	text-align: center;
 	color: white;
 }
-
 footer ul li a
 {
 	margin: 10px;
@@ -88,6 +78,9 @@ footer ul li a:hover
 	border: 5px solid transparent;
 }
 
+
+
+
 .container
 {
 	background-color: #111;
@@ -95,24 +88,54 @@ footer ul li a:hover
 	grid-template-columns: 200px 1fr;
 	grid-template-rows: 150px 1fr;
 }
-
 .item
 {
 	border: 1px dashed yellow;
 }
-
 .it-nav
 {
 	grid-row: 1 / -1;
 	border-right: 1px solid #424242;
 	background-color: black;
 }
-
 .it-contenu
 {
 	border-top: 1px transparent;
 	padding: 10px;
 }
+
+
+.linklist a
+{
+	display: inline;
+	border: none;
+	color: darkmagenta;
+	font-size: 20px;
+}
+.linklist a:hover
+{
+	border: none;
+}
+.linklist li .link
+{
+	color: darkred;
+}
+.linklist li .link:hover
+{
+	color: green;
+	border: none;
+}
+.linklist li p
+{
+	padding: 0px;
+	display: inline;
+	font-size: 15px;
+}
+
+
+
+
+
 
 .footer li
 {
