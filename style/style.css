@@ -26,6 +26,7 @@ li
 }
 li a
 {
+	padding-left: 10px;
 	display: block;
 	color: green;
 	border: 1px solid transparent;
@@ -135,6 +136,16 @@ footer ul li a:hover
 
 
 
+fieldset
+{
+	border: 2px solid green;
+	border-radius: 20px;
+	margin: 10px;
+}
+.obligatoire
+{
+	color: red;
+}
 
 
 .footer li
